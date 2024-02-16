@@ -28,70 +28,75 @@
 <body>
 
     <!-- Header  -->
-    <header class="header" data-header >
+    <header class="header active" data-header >
         <div class="container">
             <!-- logo and name logo -->
             <a href="#" class="logo">
                 <img src="./assets/images/logo.svg" width="70" height="15" alt="Farzine logo">
-            </a>
-            <svg viewBox="0 0 800 600">
-                <symbol id="s-text">
-                  <text text-anchor="middle"
-                        x="50%"
-                        y="35%"
-                        class="text--line2"
-                        >
-                    Farzine
-                  </text>
+                <svg viewBox="0 0 1000 800" class="fz">
+                  <symbol id="s-text">
+                    <text text-anchor="middle"
+                          x="50%"
+                          y="35%"
+                          class="text--line2"
+                          >
+                      Farzine
+                    </text>
+                    
+                  </symbol>
                   
-                </symbol>
-                
-                <g class="g-ants">
-                  <use xlink:href="#s-text"
-                    class="text-copy"></use>     
-                  <use xlink:href="#s-text"
-                    class="text-copy"></use>     
-                  <use xlink:href="#s-text"
-                    class="text-copy"></use>     
-                  <use xlink:href="#s-text"
-                    class="text-copy"></use>     
-                  <use xlink:href="#s-text"
-                    class="text-copy"></use>     
-                </g> 
-              </svg>
+                  <g class="g-ants">
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                    <use xlink:href="#s-text"
+                      class="text-copy"></use>     
+                  </g> 
+                </svg>
+            </a>
+            
 
               <!----------------------------->
 
-              <nav class="navbar" data-navbar>
+              <nav class="navbar active" data-navbar>
                 <div class="navbar-top">
                     <a href="#" class="logo">
-                        <img src="./assets/images/logo.svg" width="70" height="15" alt="Farzine logo">
-                    </a>
-                    <svg viewBox="0 -250 800 600">
-                        <symbol id="s-text">
-                          <text text-anchor="middle"
-                                x="50%"
-                                y="35%"
-                                class="text--line2"
-                                >
-                            Farzine
-                          </text>
-                          
-                        </symbol>
+                        <img src="./assets/images/logo.svg" width="60" height="10"  alt="Farzine logo">
                         
-                        <g class="g-ants">
-                          <use xlink:href="#s-text"
-                            class="text-copy"></use>     
-                          <use xlink:href="#s-text"
-                            class="text-copy"></use>     
-                          <use xlink:href="#s-text"
-                            class="text-copy"></use>     
-                          <use xlink:href="#s-text"
-                            class="text-copy"></use>     
-                          <use xlink:href="#s-text"
-                            class="text-copy"></use>     
-                        </g> 
-                      </svg>
+                          <svg viewBox="0 0 1000 800" class="menubar-fz">
+                            <symbol id="s-text">
+                              <text text-anchor="middle"
+                                    x="50%"
+                                    y="35%"
+                                    class="text--line2"
+                                    >
+                                Farzine
+                              </text>
+                              
+                            </symbol>
+                            
+                            <g class="g-ants">
+                              <use xlink:href="#s-text"
+                                class="text-copy"></use>     
+                              <use xlink:href="#s-text"
+                                class="text-copy"></use>     
+                              <use xlink:href="#s-text"
+                                class="text-copy"></use>     
+                              <use xlink:href="#s-text"
+                                class="text-copy"></use>     
+                              <use xlink:href="#s-text"
+                                class="text-copy"></use>     
+                            </g> 
+                          </svg>
+                        
+                        
+                    </a>
+                    
 
                       <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
                         <ion-icon name="close-outline" aria-hidden="true"></ion-icon> <!-- close icon -->
@@ -117,12 +122,13 @@
                </ul>
                
                <div class="navbar-bottom">
-                <div class="profile_card">
+                <div class="profile-card">
                     <img src="./assets/images/author-1.png" width="48" height="48" alt="Hasan" class="profile-banner">
                     <div>
                         <p class="card-tittle">Hi, Hasan</p>
                         <p class="card-subtittle">Welcome to your blog</p>
                     </div>
+                </div>
                    <ul class="link-list">
                     <li>
                         <a href="#" class="navbar-bottomm-link hover-1" >Profile</a>
@@ -133,8 +139,6 @@
                     <li>
                         <a href="#" class="navbar-bottomm-link hover-1" >Add New Post</a>
                     </li>
-
-
                     <li>
                         <a href="#" class="navbar-bottomm-link hover-1" >My Likes</a>
                     </li>
@@ -146,17 +150,19 @@
                     </li>
                    </ul> 
                 </div>
-               </div>
-        
+              
                <p class="copyright-text">
                 &copy; 2024 Farzine. All rights reserved.
                </p>
+              
               </nav>
 
               <a href="#" class="btn btn-primary">Subscribe</a>
               <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
                 <ion-icon name="menu-outline" aria-hidden="true"></ion-icon> <!-- menu icon -->
               </button>
+
+            
 
         </div>
     </header>
